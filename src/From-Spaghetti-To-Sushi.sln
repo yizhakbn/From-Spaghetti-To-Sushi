@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release 1-2", "Release 1-2", "{275DF0BB-0084-4155-B4E8-2E8AC1FAD2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessor-Core-Release1", "Release 1\ImageProcessor-Core-Release1\ImageProcessor-Core-Release1.csproj", "{CF7F636E-1C2A-4786-8AEE-FA0E60ABB6CD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF7F636E-1C2A-4786-8AEE-FA0E60ABB6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7F636E-1C2A-4786-8AEE-FA0E60ABB6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7F636E-1C2A-4786-8AEE-FA0E60ABB6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7F636E-1C2A-4786-8AEE-FA0E60ABB6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF7F636E-1C2A-4786-8AEE-FA0E60ABB6CD} = {275DF0BB-0084-4155-B4E8-2E8AC1FAD2BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AFD0A9C-B053-4CE0-8907-9D0320E02836}
