@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Bnaya.Samples</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\TFS\GIT\Courses\From-Spaghetti-To-Sushi\src\Release 3\Build\Providers\ImageSharp\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\TFS\GIT\Courses\From-Spaghetti-To-Sushi\src\Release 3\Build\Providers\ImageSharp\</OutputPath>
+  </PropertyGroup>
+
+</Project>
